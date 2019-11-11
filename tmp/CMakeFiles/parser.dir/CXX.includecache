@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dev/CMD_Parse_App/src/parser.cpp
+stdio.h
+-
+stdlib.h
+-
+getopt.h
+-
+ctype.h
+-
+
